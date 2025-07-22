@@ -270,3 +270,19 @@
     background-position: 0% 50%;
   }
 }
+/* ----------  PERMANENT MOBILE SAFEGUARD  ---------- */
+@media (hover: none) and (pointer: coarse) {
+  /* reveal anything hidden with max-height/opacity on hover */
+  [style*="max-height:0px"],
+  [style*="max-height: 0px"],
+  [style*="max-height:0"],
+  [style*="max-height: 0"],
+  [class*="max-h-0"],
+  [style*="opacity:0"],
+  [style*="opacity: 0"],
+  [class*="opacity-0"] {
+    max-height: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

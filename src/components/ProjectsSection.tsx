@@ -61,7 +61,7 @@ const ProjectsSection = () => {
       description: "A platform to manage course registration with scheduling and limits.",
       longDescription:
         "Developed using Java, Spring Boot, and Thymeleaf. Supports auto-cancellation of inactive courses and conflict resolution. Real-time notifications included.",
-      image: "https://source.unsplash.com/600x400/?university,code",
+      image: "OCES.jpg",
       tags: ["Java", "Spring Boot", "MVC"],
       category: "web",
       featured: true,
@@ -79,7 +79,7 @@ const ProjectsSection = () => {
       description: "Desktop application for account and transaction management.",
       longDescription:
         "Built using Java and MySQL with JDBC. Supported reporting and version control. Used for mock financial account simulation.",
-      image: "https://source.unsplash.com/600x400/?bank,software",
+      image: "BMS.jpg",
       tags: ["Java", "MySQL", "JDBC"],
       category: "desktop",
       featured: true,
@@ -96,7 +96,7 @@ const ProjectsSection = () => {
       description: "Android app for managing student and teacher records.",
       longDescription:
         "Offline-capable mobile app using Java and SQLite for schools. Features login roles, attendance tracking, and schedule management.",
-      image: "https://source.unsplash.com/600x400/?school,mobile",
+      image: "SMP.jpg",
       tags: ["Android", "Java", "SQLite"],
       category: "mobile",
       featured: false,
@@ -113,7 +113,7 @@ const ProjectsSection = () => {
       description: "Relational database with player stats and match history.",
       longDescription:
         "Designed an optimized SQL database for storing and retrieving sports data. Included ranking logic and stored procedures.",
-      image: "https://source.unsplash.com/600x400/?database,sql",
+      image: "DBMS.jpg",
       tags: ["MySQL", "SQL"],
       category: "web",
       featured: false,
@@ -130,7 +130,7 @@ const ProjectsSection = () => {
       description: "Fully functional online store built using WordPress.",
       longDescription:
         "Built a real-world e-commerce site with a shopping cart, user authentication, and integrated payment system using WordPress plugins.",
-      image: "https://source.unsplash.com/600x400/?ecommerce,wordpress",
+      image: "ECW.jpg",
       tags: ["WordPress", "HTML", "CSS"],
       category: "web",
       featured: false,
@@ -147,7 +147,7 @@ const ProjectsSection = () => {
       description: "Basic AI algorithms implemented in Python during NAVTTC course.",
       longDescription:
         "Implemented classic AI algorithms and logic using Python as part of the AI foundational course. Covered search, logic, and intro to neural networks.",
-      image: "https://source.unsplash.com/600x400/?ai,python",
+      image: "AI.jpg",
       tags: ["AI", "Python", "NAVTTC"],
       category: "ai",
       featured: false,

@@ -112,8 +112,8 @@ const AboutSection = () => {
                 <button 
                   onClick={() => {
                     const link = document.createElement('a');
-                    link.href = '/Muhammad_Ahsan_Khan_Resume.pdf';
-                    link.download = 'Muhammad_Ahsan_Khan_Resume.pdf';
+                    link.href = '/Resume (Muhammad Ahsan khan) V2.pdf';
+                    link.download = 'Resume (Muhammad Ahsan khan) V2';
                     document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);
@@ -127,7 +127,7 @@ const AboutSection = () => {
                   <Github className="w-4 h-4 mr-2" />
                   GitHub
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="btn-cyber-secondary">
+                <a href="https://www.linkedin.com/in/muhammad-ahsan-khan.com" target="_blank" rel="noopener noreferrer" className="btn-cyber-secondary">
                   <Linkedin className="w-4 h-4 mr-2" />
                   LinkedIn
                 </a>
